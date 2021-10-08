@@ -1,2 +1,99 @@
+/* основной текст #212121 */
 
+/* вторичный текст #757575 */
 
+/* акцент #2196F3 */
+
+/* белый цвет #ffffff */
+
+/* цвет контактов в футере rgba(255, 255, 255, 0.6) */
+
+/* вторичный цвет фона #2F303A */
+
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.page {
+  color: var(--main-text-color);
+  background-color: #ffffff;
+}
+
+.logo {
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* site-nav */
+.site-nav a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+/* auth-nav */
+.auth-nav a,
+.section-text {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* Логотип */
+.web {
+  color: var(--accent-color);
+}
+.logo:focus {
+}
+
+/* Цвет фона */
+.backround-hero,
+.backround-footer {
+  background-color: #2f303a;
+}
+
+h1,
+.adress,
+.footer-logo {
+  color: #ffffff;
+}
+
+/* Цвет контактов в футере */
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/* Основная кнопка */
+.button-pimary {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+.button-filter {
+  color: var(--main-text-color);
+  background-color: #eeeeee;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: #fff;
+  background-color: var(--accent-color);
+}
