@@ -14,6 +14,19 @@
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-title-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.list .link {
+  text-decoration: none;
 }
 
 .page {
@@ -33,18 +46,15 @@
   letter-spacing: 0.03em;
 }
 
-ul {
-  list-style: none;
-}
-
 /* site-nav */
-.site-nav a {
+.site-nav,
+.link {
   text-decoration: none;
   color: var(--main-text-color);
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -53,13 +63,13 @@ ul {
 }
 
 /* auth-nav */
-.auth-nav a,
+.auth-nav,
 .section-text {
   text-decoration: none;
   color: var(--secondary-text-color);
 }
-.auth-nav a:hover,
-.auth-nav a:focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -85,8 +95,8 @@ ul {
 }
 
 /* Заголовки */
-h1 {
-  color: #ffffff;
+.primary-title {
+  color: var(--primary-title-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -94,7 +104,7 @@ h1 {
   letter-spacing: 0.06em;
 }
 
-h2 {
+.secondary-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -165,6 +175,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .button-primary:hover,
@@ -182,20 +193,13 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .button-filter:hover,
 .button-filter:focus {
   color: #fff;
   background-color: var(--accent-color);
-}
-
-button {
-  font-family: inherit;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* Примеры проэктов */
