@@ -17,15 +17,11 @@
   --primary-title-color: #ffffff;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .list {
   list-style: none;
 }
 
-.list .link {
+.link {
   text-decoration: none;
 }
 
