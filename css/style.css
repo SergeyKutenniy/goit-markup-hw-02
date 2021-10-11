@@ -45,7 +45,6 @@
 /* site-nav */
 .site-nav,
 .link {
-  text-decoration: none;
   color: var(--main-text-color);
 }
 
@@ -61,7 +60,6 @@
 /* auth-nav */
 .auth-nav,
 .section-text {
-  text-decoration: none;
   color: var(--secondary-text-color);
 }
 .auth-nav .link:hover,
